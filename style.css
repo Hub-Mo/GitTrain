@@ -13,13 +13,17 @@
     padding:15px;
 }
 img {
-    width: 200px;
+    width: 350px;
+    border-radius: 45px;
 }
 tr {
     display: flex;
     flex-direction: column;
     text-align:center;
 }   
+td {
+    font-style:italic;
+}
 .sec1 {
     display: flex;
     justify-content: center;
@@ -51,4 +55,11 @@ justify-content:center;
 }
 body {
 background-color:antiquewhite;   
+}
+table, th, tr, td {
+    border: 1px solid White;
+}
+.green {
+    background: green;
+    height: 18px;
 }
