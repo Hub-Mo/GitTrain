@@ -17,8 +17,6 @@ img {
     border-radius: 45px;
 }
 tr {
-    display: flex;
-    flex-direction: column;
     text-align:center;
 }   
 td {
@@ -29,7 +27,8 @@ td {
     justify-content: center;
     background: black;
     color:white;
-    padding: 15px;
+    padding: 90px;
+    font-size: 20px;
 }
 h2 {
     text-align: center;
@@ -38,14 +37,19 @@ h2 {
 display: flex;
 justify-content:center;
 }
+.hobbys{
+    font-size: 20px;
+}
 .sec3 {
     background: black;
     text-align: center;
     color: white;
     padding:15px;
+    font-size: 30px;
 }
 .sec4 {
     text-align: center;
+    font-size: 20px;
 }
 .sec5 {
     display: flex;
@@ -54,12 +58,36 @@ justify-content:center;
     margin-bottom: 200px;
 }
 body {
-background-color:antiquewhite;   
+    background-color:antiquewhite;   
 }
-table, th, tr, td {
+table, th, td{
     border: 1px solid White;
+    border-collapse: collapse;
+    resize: both; 
+    overflow: auto;
+    padding: 10px;
 }
+table {
+    width:1000px;
+    height:170px;
+}
+
 .green {
-    background: green;
-    height: 18px;
+    background-color:#4CAF50;
 }
+.button {
+    background-color:antiquewhite;
+    border-radius: 45px;
+    border-color: #4CAF50;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 200px;
+}
+.button:hover {
+    background:#4CAF50
+}
+
