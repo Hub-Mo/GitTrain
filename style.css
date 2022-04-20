@@ -1,1 +1,55 @@
-
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.dheader {
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content: center;
+}
+.header, .dheader {
+    padding:15px;
+}
+img {
+    width: 200px;
+}
+tr {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}   
+.sec1 {
+    display: flex;
+    justify-content: center;
+    background: black;
+    color:white;
+    padding: 15px;
+}
+h2 {
+    text-align: center;
+}
+.div2{
+display: flex;
+justify-content:center;
+}
+.sec3 {
+    background: black;
+    text-align: center;
+    color: white;
+    padding:15px;
+}
+.sec4 {
+    text-align: center;
+}
+.sec5 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    margin-bottom: 200px;
+}
+body {
+    background-image: url(pexels-ann-h-1762851.jpg)
+    background-repeat: repeat-x;
+}
